@@ -15,7 +15,7 @@ import { arbitrum, mainnet, polygon, goerli } from "wagmi/chains";
 // Configuration for Wagmi and Web3Modal
 
 const chains = [arbitrum, mainnet, polygon, goerli];
-const projectId = process.env.PROJECT_ID;
+const projectId = process.env.REACT_APP_PROJECT_ID;
 console.log({projectId})
 
 const { provider } = configureChains(chains, [w3mProvider({ projectId })]);
