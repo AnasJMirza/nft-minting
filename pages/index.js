@@ -86,7 +86,7 @@ export default function Home() {
 
           <div className="h-80 w-80 rounded-lg">
             <img
-              src={imageURL}
+              src={ isConnected ? imageURL : "https://openseauserdata.com/files/9d9d3a33707ffffe68cff661fe4a85c7.png"}
               alt="nft"
               className="h-full w-full object-contain rounded-lg"
             />
