@@ -72,7 +72,7 @@ export default function Home() {
               onClick={mint}
               className="rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 flex items-center justify-center text-white p-2 px-5 w-fit cursor-pointer mt-7 disabled:opacity-50"
             >
-              {isLoading ? "Waiting for approval" : "Mint"}
+              {isLoading ? "Waiting for transaction" : "Mint"}
             </button>
             <p
               className="text-sm mt-3"

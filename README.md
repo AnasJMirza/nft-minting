@@ -1,3 +1,1 @@
-### NFT - MINTING
-
-# In Development Stage...
+# NFT - MINTING
